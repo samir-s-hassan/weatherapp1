@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F29E6AB2B9FAF580093CD12 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F29E6AA2B9FAF580093CD12 /* ForecastViewController.swift */; };
+		8F4519682B9FEFCE00928740 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4519672B9FEFCE00928740 /* WeatherForecast.swift */; };
 		997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */; };
 		997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */; };
 		997BF5F229D4838D0099F2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997BF5F029D4838D0099F2B4 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		8F29E6AA2B9FAF580093CD12 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		8F4519672B9FEFCE00928740 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 		997BF5E729D4838D0099F2B4 /* CloudCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		997BF5E929D4838D0099F2B4 /* CloudCast */ = {
 			isa = PBXGroup;
 			children = (
+				8F4519672B9FEFCE00928740 /* WeatherForecast.swift */,
 				997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */,
 				8F29E6AA2B9FAF580093CD12 /* ForecastViewController.swift */,
 				997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */,
@@ -261,6 +264,7 @@
 				997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */,
 				997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */,
 				8F29E6AB2B9FAF580093CD12 /* ForecastViewController.swift in Sources */,
+				8F4519682B9FEFCE00928740 /* WeatherForecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
