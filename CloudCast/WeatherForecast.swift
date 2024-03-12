@@ -9,9 +9,12 @@ import Foundation
 import UIKit
 
 struct WeatherForecast {
-  let temperature: Double
-  let date: Date
+    let windSpeed: Double
   let weatherCode: WeatherCode
+    let precipitation: Double
+    let temperature: Double
+    let date: Date
+
 }
 
 enum WeatherCode {

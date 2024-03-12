@@ -60,16 +60,37 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d57-bY-Dlk">
+                                <rect key="frame" x="18.000000000000004" y="334" width="37.333333333333343" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="◀"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="ZOF-kM-NkQ" eventType="touchUpInside" id="w8I-SO-pI4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpx-FU-L9n">
+                                <rect key="frame" x="339.66666666666669" y="334" width="37.333333333333314" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="▶"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="ZOF-kM-NkQ" eventType="touchUpInside" id="Ylo-Pb-H76"/>
+                                    <action selector="didTapForwardButton:" destination="ZOF-kM-NkQ" eventType="touchUpInside" id="Yu6-rl-V7l"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sFw-bK-9Yk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="d57-bY-Dlk" firstAttribute="leading" secondItem="sFw-bK-9Yk" secondAttribute="leading" constant="18" id="3hd-9B-YsL"/>
                             <constraint firstItem="ERA-Ye-Ziv" firstAttribute="leading" secondItem="dZn-OF-zvt" secondAttribute="trailing" constant="2" id="9nu-xS-VuR"/>
                             <constraint firstItem="dZn-OF-zvt" firstAttribute="top" secondItem="sFw-bK-9Yk" secondAttribute="top" constant="20" id="G4f-Np-A9t"/>
+                            <constraint firstItem="Kpx-FU-L9n" firstAttribute="centerY" secondItem="iGQ-tO-cBf" secondAttribute="centerY" constant="-75" id="Jc9-Ja-8nI"/>
+                            <constraint firstItem="sFw-bK-9Yk" firstAttribute="trailing" secondItem="Kpx-FU-L9n" secondAttribute="trailing" constant="16" id="Sou-5L-pMg"/>
                             <constraint firstItem="ERA-Ye-Ziv" firstAttribute="top" secondItem="sFw-bK-9Yk" secondAttribute="top" constant="20" id="dSL-1F-MfZ"/>
                             <constraint firstItem="ERA-Ye-Ziv" firstAttribute="centerX" secondItem="iGQ-tO-cBf" secondAttribute="centerX" id="n5D-Dp-IpX"/>
                             <constraint firstItem="rfV-uw-hHq" firstAttribute="top" secondItem="ERA-Ye-Ziv" secondAttribute="bottom" constant="70" id="oOE-yh-aMG"/>
                             <constraint firstItem="rfV-uw-hHq" firstAttribute="centerX" secondItem="iGQ-tO-cBf" secondAttribute="centerX" id="qm9-TQ-s0G"/>
+                            <constraint firstItem="d57-bY-Dlk" firstAttribute="centerY" secondItem="iGQ-tO-cBf" secondAttribute="centerY" constant="-75" id="xe5-bT-js6"/>
                         </constraints>
                     </view>
                     <connections>
@@ -92,7 +113,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
